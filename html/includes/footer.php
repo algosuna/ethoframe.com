@@ -1,0 +1,1 @@
+<footer> &copy;2012 Andy Osuna | <a href="about.php">About</a> | <a href="terms.php">Terms of Service &amp; Privacy Policy</a> | Sitemap | <a href="contact.php">Feedback</a> </footer>

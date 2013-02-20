@@ -1,0 +1,449 @@
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,700|Amatic+SC:700);
+body {
+	background: url(../images/bg_01.gif);
+	font-family: 'Cabin', sans-serif;
+	font-size: 20px;
+	margin: 35px 0 0 0;
+	padding: 0;
+	position: relative;
+}
+
+#index .header{
+	display: block;
+	width: 900px;
+	margin: 0 auto;
+}
+.header .logo {
+	margin: 10px 0 20px 0;
+}
+
+#buttons,
+.form-container {
+	width: 300px;
+	margin: auto;
+}
+#buttons {
+	height: 50px;
+}
+.login, .signup {
+	display: inline-block;
+	width: 140px;
+	height: 50px;
+	font-family: 'Amatic SC', Verdana, Arial, Helvetica, sans-serif;
+	font-size: 36px;
+}
+.login, .signup, .login-form, .signup-form, .contact-form {	
+	-webkit-box-shadow:  0px 0px 10px 4px rgba(182, 182, 182, 1);
+    box-shadow:  0px 0px 10px 4px rgba(182, 182, 182, 1);
+	-webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.login {
+	margin-right: 20px;
+}
+a.login, a.signup {
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+}
+a:hover.login, a:hover.signup {
+	text-align: center;
+	text-decoration: none;
+	color: #666;
+}
+.back {
+	display: block;
+	text-align: center;
+}
+.back a{
+	width: 100px;
+	font-family: 'Amatic SC', Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	font-size:36px;
+	color: #666;
+}
+.back a:hover{
+	color: #000;
+}
+.back#contact{
+	padding: 20px;
+}
+form{
+	text-align:center;
+}
+form.contact-form{
+	margin-top:50px;
+}
+form input, textarea {
+	-webkit-box-shadow: inset 0px 5px 10px 1px rgba(229, 229, 229, 1);        
+    box-shadow: inset 0px 5px 10px 1px rgba(229, 229, 229, 1);
+	width: 75%;
+	padding: 10px;
+	font-size: 18px;
+	margin: 5px;
+}
+input:hover, textarea:hover {
+	-webkit-box-shadow:  0px 0px 4px 3px rgba(182, 182, 182, 1);
+    box-shadow:  0px 0px 4px 3px rgba(182, 182, 182, 1);	
+}
+label.checklabel{
+	display: block;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: left;
+}
+input#checkbox{
+	display: block;
+	float: left;
+	width: 10%;
+	margin-left:20px; 
+}
+input#checkbox:hover{
+	-webkit-box-shadow:  0px 0px 2px 2px rgba(182, 182, 182, 1);
+    box-shadow:  0px 0px 2px 2px rgba(182, 182, 182, 1);
+}
+.form-container h2 {
+	font-family: 'Amatic SC', Verdana, Arial, Helvetica, sans-serif;
+	font-size: 38px;
+	display: block;
+	height: 20px;
+	padding: 5px;
+}
+.error {
+	display: block;
+	width:70%;
+	margin-left: 50px;
+	font-size:12px;
+	color:#900;
+	text-align:left;
+}
+.error#lasterror{
+	margin-bottom: 10px;
+}
+.error#horrible{
+	display: block;
+	width: 300px;
+	height: 55px;
+	padding: 45px 0 0 0;
+	text-indent: -20px;
+}
+/****************BUTTONS****************/
+.enter-button, .send-button, .post-button {
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-family: 'Amatic SC', Verdana, Arial, Helvetica, sans-serif;
+	padding: 1px;
+	font-size: 30px;
+	background-color: #FFF;
+}
+.enter-button:hover, .send-button:hover {
+	color:#666;
+	-webkit-box-shadow: 0px 0px 4px 3px rgba(182, 182, 182, 1);
+    box-shadow: 0px 0px 4px 3px rgba(182, 182, 182, 1);
+}
+.send-button {
+	margin-left: -15%;
+}
+
+/*************NAV***************/
+nav{
+	background-color:#20282c;
+	margin-bottom: 5px;
+	height: 35px;
+	width: 100%;
+	-webkit-box-shadow: 0px 0px 4px 3px rgba(182, 182, 182, 1);
+    box-shadow: 0px 0px 4px 3px rgba(182, 182, 182, 1);
+	position:fixed;
+	top:0;
+	
+}
+nav ul{
+	width: 960px;
+	margin: 0 auto;
+}
+nav li{
+	float: left;
+	padding: 0;
+	color: #fff;
+	font-weight:bold;
+	margin-right: 40px;
+	padding-top: 5px;
+	list-style:none;
+}
+nav li a{
+	text-decoration:none;
+	color: #fff;
+}
+nav li a:hover{
+	color: #CCC;
+}
+nav li input#search{
+	display:none;
+	padding: 0;
+	margin:0;
+}
+nav li input#phrase{
+	width:140px;
+	height:17px;
+	padding:0 0 0 10px;
+	margin:0;
+	font-size:12px; 
+	font-weight: bold;
+	-webkit-border-radius: 20px;
+    border-radius: 20px;
+	background-color: #989898;
+	color: #fff;
+	-webkit-box-shadow: inset 0px 5px 10px 1px rgba(229, 229, 229, 1);        
+	box-shadow: inset 0px 5px 10px 1px rgba(229, 229, 229, 1);
+}
+nav li input#phrase:hover{
+	-webkit-box-shadow: 0px 0px 4px 3px rgba(182, 182, 182, 1);
+    box-shadow: 0px 0px 4px 3px rgba(182, 182, 182, 1);	
+}
+nav li label#searchlabel{
+	margin-right: 5px;
+}
+nav li.searchbar {
+	text-align: right;
+	float:right;
+	display:block	
+}
+footer{
+	text-align: center;
+	padding: 10px;
+}
+a {
+	color:#20282c;
+	/* to enable later!  text-decoration: none; */
+}
+a:hover{
+	color: #989898;
+}
+
+
+/********HEADER************/
+header{
+	margin: 0 auto;
+	width: 960px;	
+}
+header h1{
+	background: url(../images/logo-300.png) no-repeat;
+	text-indent: -9999px;
+	width: 300px;
+	float:left;
+}
+header h1 a{
+	display: block;
+	
+	height: 82px;
+	outline: none;
+}
+header .tools{
+	float: right;
+	width: 190px;
+	padding: 15px 0 0 310px;
+}
+header .tools li{
+	text-indent: -9999px;
+	list-style:none;
+	float:left;
+	height:66px;
+	width:62px;
+}
+header .tools li a{
+	display: block;
+	width: 62px;
+	height: 66px;	
+	outline: none;
+}
+header .tools li.ex{
+	background: url(../images/explore.png) no-repeat;
+}
+header .tools li.set{
+	background: url(../images/settings.png) no-repeat;
+}
+header .tools li.log{
+	background: url(../images/log_off.png) no-repeat;
+}
+
+/********CONTAINER************/
+#container{
+	margin: 0 auto;
+	width: 960px;
+	clear:both;
+}
+
+
+
+
+/********POSTS STREAM***************/
+.post{
+	width: 960px;
+	-webkit-box-shadow: inset 0px 5px 5px 1px rgba(141, 141, 141, 1);
+	box-shadow: inset 0px 5px 5px 1px rgba(141, 141, 141, 1);
+	-webkit-border-radius: 10px;
+    border-radius: 10px;
+	margin-bottom: 30px;
+}
+.post .avatar{
+	float: right;
+	width: 140px;
+	height: 140px;
+}
+.post .image-post{
+	float: left;
+	width: 620px;
+}
+.post img{
+	margin: 20px;
+}
+.post h4{
+	display: block;
+}
+.post .buttons{
+	float: left;
+	display: block;
+	width: 120px;
+	
+}
+.post a.e-tool{
+	display: block;
+	width: 56px;
+	height: 48px;
+	text-indent: -9999px;
+	outline: none;
+	margin: 5px;
+	float: left;
+}
+.post a#exp{
+	background: url(../images/exposure.png) no-repeat;
+	margin-top: 20px;
+}
+.post a#bck{
+	background: url(../images/back.png) no-repeat;
+	
+}
+.post .tools{
+	display: block;
+	width:32px;
+	float: right;
+	/* FOR AFTER EXPOSURE BUTTON WORKS!!! 
+	position: relative;
+	top: -55px;
+	*/
+}
+.post a.tool{
+	display: block;
+	width:32px;
+	height: 30px;
+	outline: none;
+	text-indent: -9999px;
+	margin: 5px;
+}
+.post a#fol{
+	background: url(../images/follow.png) no-repeat;
+	margin-top: 25px;
+	
+}
+.post a#fav{
+	background: url(../images/favorite.png) no-repeat;
+	
+}
+.post a#mes{
+	background: url(../images/message.png) no-repeat;
+	
+}
+.post a#rep{
+	background: url(../images/block.png) no-repeat;
+	
+}
+a.edit{
+	display: block;
+	float: right;
+	position: relative;
+	top: 25px;
+	font-size: 18px;
+}
+.description{
+	display: block;
+	width: 280px;
+	padding: 10px;
+	float: right;
+}
+.cf{
+	clear: both;
+}
+
+/******************************/
+/********UPLOAD FORM***********/
+/******************************/
+h3.latest {
+	padding-top: 25px;
+	text-align:center;
+}
+ul#exposure{
+	list-style: none;
+	margin: 10px;
+}
+ul#exposure li{
+	margin-top: 10px;
+}
+form#upload,
+form#edit{
+	margin: 0 auto;
+	-webkit-box-shadow:  0px 0px 10px 4px rgba(182, 182, 182, 1);
+    box-shadow:  0px 0px 10px 4px rgba(182, 182, 182, 1);
+	-webkit-border-radius: 10px;
+    border-radius: 10px;
+	padding: 20px;
+}
+form#upload label,
+form#edit label{
+	display: block;
+	width: 30%;
+	padding: 0 10px 0 0;
+	float: left;
+	text-align: right;
+	margin-top: 20px;
+	font-weight: bold;
+}
+form#upload input,
+form#upload textarea,
+form#edit input,
+form#edit textarea{
+	display: inline;
+	float: left;
+	margin-top: 20px;
+	width: 40%;
+}
+
+/******************************/
+/**********EDIT FORM***********/
+/******************************/
+h3.edit-title{
+	padding-top: 25px;
+}
+h4.date{
+	font-size: 14px;
+	color: #999;
+	font-style:italic;
+	line-height: 5px;
+}
+#image-container{
+	display: block;
+	margin: 0 auto;
+	width: 69%;
+	padding: 20px;
+	-webkit-box-shadow: inset 0px 5px 5px 1px rgba(141, 141, 141, 1);
+	box-shadow: inset 0px 5px 5px 1px rgba(141, 141, 141, 1);
+	-webkit-border-radius: 10px;
+	
+}
+form#edit input.post-button{
+	float: none;
+	margin-left: 35px;
+}
