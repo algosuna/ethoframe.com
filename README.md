@@ -7,8 +7,11 @@ Developers
 ----------
 
 So far just me.
+
 Andrea Gonzalez Osuna
+
 (Andy Osuna)
+
 [@andiosuna](https://twitter.com/andiosuna)
 
 Origin
